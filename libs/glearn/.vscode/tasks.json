@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "group": "build",
+      "script": "build",
+      "label": "Build GLearn"
+    },
+    {
+      "type": "process",
+      "command": "node",
+      "args": [
+        "../../common/scripts/install-run-rushx.js",
+        "storybook"
+      ],
+      "label": "Run the storybook"
+    }
+  ]
+}

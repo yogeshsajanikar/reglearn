@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "rush.json": "jsonc"
+    },
+    "files.exclude": {
+        "libs/**": true
+    }
+}
